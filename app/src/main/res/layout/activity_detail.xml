@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/link_verblijf2"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="321dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:height="91dp"
+        android:fontFamily="@font/chewy"
+        android:text="https://www.antwerpen.be/nl/kinderopvangzoeker#/profile/0c8efe50b1e448e99df317569d07e1f8"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/link_verblijf"
+        app:layout_constraintTop_toBottomOf="@+id/urlz_verblijf" />
+
+    <TextView
+        android:id="@+id/Telefoon_verblijf3"
+        android:layout_width="285dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:height="30dp"
+        android:fontFamily="@font/chewy"
+        android:text="03 220 12 38"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/telefoon_verblijf"
+        app:layout_constraintTop_toBottomOf="@+id/link_verblijf2" />
+
+    <TextView
+        android:id="@+id/email_verblijf2"
+        android:layout_width="271dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:height="30dp"
+        android:fontFamily="@font/chewy"
+        android:text="marina.vantichelen@felies.be"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toEndOf="@+id/email_verblijf"
+        app:layout_constraintTop_toBottomOf="@+id/Telefoon_verblijf3" />
+
+    <TextView
+        android:id="@+id/url_verblijf"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:height="68dp"
+        android:fontFamily="@font/chewy"
+        android:text="URL:"
+        android:textColor="@color/colorTeddy"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/link_verblijf"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:height="91dp"
+        android:fontFamily="@font/chewy"
+        android:text="Link:"
+        android:textColor="@color/colorTeddy"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/url_verblijf" />
+
+    <TextView
+        android:id="@+id/telefoon_verblijf"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:height="30dp"
+        android:fontFamily="@font/chewy"
+        android:text="Telefoon:"
+        android:textColor="@color/colorTeddy"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/link_verblijf" />
+
+    <TextView
+        android:id="@+id/email_verblijf"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:height="30dp"
+        android:fontFamily="@font/chewy"
+        android:text="Email:"
+        android:textColor="@color/colorTeddy"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefoon_verblijf" />
+
+    <TextView
+        android:id="@+id/urlz_verblijf"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="325dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:height="68dp"
+        android:fontFamily="@font/chewy"
+        android:text="http://www.felies.be"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/url_verblijf"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_verblijf2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context="com.example.teddy.DetailActivity"
+        tools:layout="@layout/activity_detail" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
