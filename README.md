@@ -3,4 +3,4 @@
 
 
 Bij het openen van het app kom je op de startpagina terecht:
-![startpagina](media/startPagina.png)
+![alt startpagina](media/startPagina.png)
