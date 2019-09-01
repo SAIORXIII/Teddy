@@ -27,10 +27,8 @@ public class DetailActivity extends AppCompatActivity implements OnMapReadyCallb
         Intent intent = getIntent();
 
 
-        String urlm = intent.getStringExtra("urlattribuut");
-        String urlms = urlm.substring(8);
-        String linkm = intent.getStringExtra("linkattribuut");
-        String linkms = linkm.substring(8);
+        String urlms = intent.getStringExtra("urlattribuut");
+        String linkms = intent.getStringExtra("linkattribuut");
         String telefoonm = intent.getStringExtra("telefoonattribuut");
         String emailm = intent.getStringExtra("emailattribuut");
         String naamm = intent.getStringExtra("naamattribuut");
