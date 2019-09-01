@@ -15,7 +15,12 @@ Logcat toonde het gezochte resultaat wel.</br>
 <img src="media/zoekQuery.PNG" alt="drawing" width="800"/> </br>
 
 Na het klikken op het gewenste kinderdagverblijf, word je doorverwezen naar de detail pagina van het verblijf:</br>
-<img src="media/zoektext.jpeg" alt="drawing" width="800"/> </br>
+<img src="media/Detail.jpeg" alt="drawing" width="200"/> </br>
+Hier zie je een aantal gegevens van het verblijf. URL, Link en email velden kunnen soms null zijn omdat die velden online ook leeg zijn.
+Als er een URL of Link aanwezig is kun je erop klikken en word je doorverwezen naar de pagina.
+Onder de velden zie je een map met een marker die de x en y coordinaat van de verblijf bevat. Bij het klikken op de marker verschijnt er een optie die u de mogelijkheid geeft om er naartoe te navigeren of het op google maps te bekijken. </br>
+<img src="media/Detail.jpeg" alt="drawing" width="200"/> </br>
+
 
 
 
