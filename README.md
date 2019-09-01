@@ -19,7 +19,11 @@ Na het klikken op het gewenste kinderdagverblijf, word je doorverwezen naar de d
 Hier zie je een aantal gegevens van het verblijf. URL, Link en email velden kunnen soms null zijn omdat die velden online ook leeg zijn.
 Als er een URL of Link aanwezig is kun je erop klikken en word je doorverwezen naar de pagina.
 Onder de velden zie je een map met een marker die de x en y coordinaat van de verblijf bevat. Bij het klikken op de marker verschijnt er een optie die u de mogelijkheid geeft om er naartoe te navigeren of het op google maps te bekijken. </br>
-<img src="media/Detail.jpeg" alt="drawing" width="200"/> </br>
+
+Als je terug naar de startpagina gaat en op zoek op eigen maat klikt, word je doorverwezen naar een pagina waar je aan de hand van 3 belangrijke criteria's kunt zoeken naar een kinderdagverblijf. Na het klikken op zoeken word je doorverwezen naar een pagina dat de resultaten toont in een recyclerview. Nadien heb je weer de mogelijkheid om door te klikken waarna je naar de detailpagina doorverwezen word. </br>
+<img src="media/ZoekOpEigenMaat.jpeg" alt="drawing" width="200"/> </br>
+
+
 
 
 
