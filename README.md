@@ -1,5 +1,5 @@
 # Teddy
- herexamen androidstudio
+androidstudio
 
 
 Bij het openen van het app kom je op het startpagina terecht: </br>
